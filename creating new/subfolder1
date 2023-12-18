@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# This script greets the user
+
+# Prompt the user to enter their name
+echo "Hello! Please enter your name:"
+
+# Read the input into a variable called 'name'
+read name
+
+# Greet the user with the provided name
+echo "Hello, $name! Nice to meet you."
